@@ -6,7 +6,7 @@
 - Docker
 - Docker Compose
 
-## Como rodar
+## Como rodar (Entrar na pasta contacts-service)
 ```bash
 docker-compose up --build
 ```
