@@ -2,11 +2,11 @@
 
 - https://github.com/NicolasCendron/SimpleLaravelContactList
 
-## Requisitos
+## Dependencies
 - Docker
 - Docker Compose
 
-## Como rodar
+## How to Run
 ```bash
 docker-compose up --build
 ```
