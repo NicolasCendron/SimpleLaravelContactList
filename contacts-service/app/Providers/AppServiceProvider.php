@@ -11,8 +11,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton(ContatoService::class, function ($app) {
-        return new ContatoService();
+        $this->app->singleton(ContactService::class, function ($app) {
+        return new ContactService();
     });
     }
 

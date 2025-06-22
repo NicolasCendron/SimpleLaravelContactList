@@ -1,11 +1,11 @@
 <?php
 
-use App\Http\Controllers\ContatoController;
+use App\Http\Controllers\ContactController;
 
-Route::post('/contatos', [ContatoController::class, 'store']);
-Route::get('/contatos', [ContatoController::class, 'index']);
-Route::get('/contatos/{id}', [ContatoController::class, 'show']);
+Route::post('/contacts', [contactController::class, 'store']);
+Route::get('/contacts', [contactController::class, 'index']);
+Route::get('/contacts/{id}', [contactController::class, 'show']);
 #destroy
-Route::delete('/contatos/destroy/{id}', [ContatoController::class, 'destroy']);
+Route::delete('/contacts/destroy/{id}', [contactController::class, 'destroy']);
 #destroy_all
-Route::delete('/contatos/destroy_all', [ContatoController::class, 'destroyAll']);
+Route::delete('/contacts/destroy_all', [contactController::class, 'destroyAll']);

@@ -1,8 +1,5 @@
 *.log
 .DS_Store
-contacts-service/.env
-contacts-service/.env.backup
-contacts-service/.env.production
 contacts-service/.phpactor.json
 contacts-service/.phpunit.result.cache
 contacts-service/.fleet

@@ -10,6 +10,7 @@ COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
 WORKDIR /app
 COPY . /app
+COPY .env .env
 
 # Permissões e cache do Laravel
 RUN chmod -R 777 storage bootstrap/cache

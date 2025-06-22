@@ -1,4 +1,4 @@
-# Microsserviço de Agenda de Contatos - Laravel
+# Microsserviço de Agenda de contacts - Laravel
 
 ## Requisitos
 - Docker

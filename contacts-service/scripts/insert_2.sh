@@ -1,12 +1,12 @@
 #!/bin/bash
 
-curl -X POST http://localhost:8000/api/contatos \
+curl -X POST http://localhost:8000/api/contacts \
      -H "Content-Type: application/json" \
      -d '{
-           "nome": "Rafaela",
-           "telefones": [
-             { "numero": "51899998989", "tipo_telefone": "FIXO" }
+           "name": "Rafaela",
+           "phones": [
+             { "number": "+55 (51) 8.9999-8989", "phone_type": 1 }
            ],
-           "categoria": "PROFISSIONAL",
-            "id": 2
+           "category": 2,
+           "id": 2
          }'

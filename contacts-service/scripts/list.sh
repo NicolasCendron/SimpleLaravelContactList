@@ -1,1 +1,1 @@
-curl -X GET http://localhost:8000/api/contatos
+curl -X GET http://localhost:8000/api/contacts
