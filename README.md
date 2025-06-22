@@ -47,5 +47,5 @@ Open Scripts and run with Bash
 
 
 ## Next Steps: Solve Frotnend Cors Problem
-- I Tried setting up FrontEnd with Vite + Vue but Encountered CORS Problems
+- I Tried setting up FrontEnd with Vite + Vue but Encountered CORS Problems, It lists but dont Include
 - Should return to fix
